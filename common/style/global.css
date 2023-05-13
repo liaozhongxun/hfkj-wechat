@@ -1,0 +1,32 @@
+page {
+    height: 100%;
+
+    /** animate.css 在uniapp的问题 */
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+.page {
+    height: 100%;
+    background-color: #f8f9fd;
+}
+
+
+
+/* 功能类 */
+.clt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cl{
+    display: flex;
+    justify-content: center;
+}
+
+.ct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,104 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/position/position",
+			"style": {
+				"navigationBarTitleText": "选择中心"
+			}
+		},
+		{
+			"path": "pages/address/children-page/from",
+			"style": {
+				"navigationBarTitleText": "新增地址"
+			}
+		},
+		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录授权"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/shoping/shoping",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		
+		
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/document/login-protocol",
+			"style": {
+				"navigationBarTitleText": "用户服务协议"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-search": "/wxcomponents/vant/search/index",
+			"van-icon": "/wxcomponents/vant/icon/index",
+			"van-dropdown-menu": "/wxcomponents/vant/dropdown-menu/index",
+			"van-button": "/wxcomponents/vant/button/index",
+			"van-cell":"/wxcomponents/vant/cell/index",
+			"van-cell-group":"/wxcomponents/vant/cell-group/index",
+			"van-checkbox":"/wxcomponents/vant/checkbox/index",
+			"van-notify":"/wxcomponents/vant/notify/index",
+			"van-empty":"/wxcomponents/vant/empty/index",
+			"van-field":"/wxcomponents/vant/field/index",
+			"van-switch":"/wxcomponents/vant/switch/index",
+			"van-popup":"/wxcomponents/vant/popup/index",
+			"van-area":"/wxcomponents/vant/area/index"
+		}
+	},
+	"tabBar": {
+		"color": "#ccc",
+		"selectedColor": "#00CC71",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/tabbar/index.png",
+			"selectedIconPath": "static/image/tabbar/index_active.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/shoping/shoping",
+			"iconPath": "static/image/tabbar/shoping.png",
+			"selectedIconPath": "static/image/tabbar/shoping_active.png",
+			"text": "购物车"
+		}, {
+			"pagePath": "pages/mine/mine",
+			"iconPath": "static/image/tabbar/mine.png",
+			"selectedIconPath": "static/image/tabbar/mine_active.png",
+			"text": "我的"
+		}]
+	},
+	"uniIdRouter": {}
+}
